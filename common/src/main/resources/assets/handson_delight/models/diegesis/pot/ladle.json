@@ -1,0 +1,77 @@
+{
+  "textures": {
+    "particle": "farmersdelight:block/cooking_pot_parts",
+    "cooking_pot_parts": "farmersdelight:block/cooking_pot_parts"
+  },
+  "elements": [
+    {
+      "name": "ladle",
+      "from": [
+        7,
+        3,
+        7
+      ],
+      "to": [
+        9,
+        15,
+        9
+      ],
+      "rotation": {
+        "angle": -22.5,
+        "axis": "z",
+        "origin": [
+          8,
+          3,
+          8
+        ]
+      },
+      "faces": {
+        "north": {
+          "uv": [
+            2,
+            2,
+            0,
+            14
+          ],
+          "texture": "#cooking_pot_parts"
+        },
+        "east": {
+          "uv": [
+            0,
+            2,
+            2,
+            14
+          ],
+          "texture": "#cooking_pot_parts"
+        },
+        "south": {
+          "uv": [
+            2,
+            2,
+            0,
+            14
+          ],
+          "texture": "#cooking_pot_parts"
+        },
+        "west": {
+          "uv": [
+            0,
+            2,
+            2,
+            14
+          ],
+          "texture": "#cooking_pot_parts"
+        },
+        "up": {
+          "uv": [
+            0,
+            0,
+            2,
+            2
+          ],
+          "texture": "#cooking_pot_parts"
+        }
+      }
+    }
+  ]
+}

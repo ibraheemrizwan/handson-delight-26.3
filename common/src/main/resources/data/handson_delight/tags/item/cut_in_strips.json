@@ -1,0 +1,21 @@
+{
+  "replace": false,
+  "values": [
+    {
+      "id": "#forge:dough",
+      "required": false
+    },
+    {
+      "id": "#c:dough",
+      "required": false
+    },
+    {
+      "id": "farmersdelight:wheat_dough",
+      "required": false
+    },
+    {
+      "id": "#c:foods/dough",
+      "required": false
+    }
+  ]
+}

@@ -1,0 +1,424 @@
+{
+  "$schema": "https://raw.githubusercontent.com/Pocky-l/diegesis/main/docs/schema/scene.schema.json",
+  "$comment": "The pot is the block itself (open in the world through the mod's blockstate), hollow: walls 2 px, inside x,z 4..12, floor y 2. The scene adds what is in it, for everybody near. The node pot only gives the block's outline and the frame of the spoon.",
+  "work_plane": 10,
+  "idle_visible": true,
+  "camera": {
+    "position": [
+      8,
+      41,
+      -21
+    ],
+    "target": [
+      8,
+      6.5,
+      8
+    ],
+    "fov": 30
+  },
+  "interface": {
+    "hide_player": true,
+    "inventory_panel": false,
+    "outline_color": "#FFFFE8C0"
+  },
+  "inventory_drawer": {
+    "side": "bottom",
+    "style": "minimal",
+    "always_open": true,
+    "compact": true,
+    "background": "#00000000",
+    "slot_color": "#8C1E140C"
+  },
+  "nodes": [
+    {
+      "id": "pot",
+      "pos": [
+        8,
+        0,
+        8
+      ],
+      "pickable": false,
+      "visual": {
+        "model": "handson_delight:diegesis/pot/body",
+        "tint": "#00FFFFFF"
+      },
+      "children": [
+        {
+          "id": "ladle",
+          "strokes": true,
+          "visual": {
+            "model": "handson_delight:diegesis/pot/ladle"
+          },
+          "collider": {
+            "from": [
+              2.6,
+              11.5,
+              -1.5
+            ],
+            "to": [
+              6.6,
+              16,
+              1.5
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "broth",
+      "pickable": false,
+      "tank": {
+        "tank": "broth",
+        "inner": {
+          "from": [
+            4,
+            2,
+            4
+          ],
+          "to": [
+            12,
+            8.5,
+            12
+          ]
+        }
+      }
+    },
+    {
+      "id": "mouth",
+      "drop_zone": "ingredients",
+      "collider": {
+        "from": [
+          2,
+          6,
+          2
+        ],
+        "to": [
+          14,
+          14,
+          14
+        ]
+      }
+    },
+    {
+      "id": "item_0",
+      "pos": [
+        8,
+        8,
+        8
+      ],
+      "slot": {
+        "slot": "ingredients[0]",
+        "size": 3.2,
+        "counts": "hover",
+        "highlight": false
+      }
+    },
+    {
+      "id": "item_1",
+      "pos": [
+        8,
+        8,
+        8
+      ],
+      "slot": {
+        "slot": "ingredients[1]",
+        "size": 3.2,
+        "counts": "hover",
+        "highlight": false
+      }
+    },
+    {
+      "id": "item_2",
+      "pos": [
+        8,
+        8,
+        8
+      ],
+      "slot": {
+        "slot": "ingredients[2]",
+        "size": 3.2,
+        "counts": "hover",
+        "highlight": false
+      }
+    },
+    {
+      "id": "item_3",
+      "pos": [
+        8,
+        8,
+        8
+      ],
+      "slot": {
+        "slot": "ingredients[3]",
+        "size": 3.2,
+        "counts": "hover",
+        "highlight": false
+      }
+    },
+    {
+      "id": "item_4",
+      "pos": [
+        8,
+        8,
+        8
+      ],
+      "slot": {
+        "slot": "ingredients[4]",
+        "size": 3.2,
+        "counts": "hover",
+        "highlight": false
+      }
+    },
+    {
+      "id": "item_5",
+      "pos": [
+        8,
+        8,
+        8
+      ],
+      "slot": {
+        "slot": "ingredients[5]",
+        "size": 3.2,
+        "counts": "hover",
+        "highlight": false
+      }
+    },
+    {
+      "id": "served",
+      "pos": [
+        8,
+        8,
+        8
+      ],
+      "slot": {
+        "slot": "served",
+        "size": 3.2,
+        "highlight": false
+      }
+    },
+    {
+      "id": "scoop",
+      "pos": [
+        8,
+        8,
+        8
+      ],
+      "rotation": [
+        -60,
+        180,
+        0
+      ],
+      "scale": 0.3,
+      "hidden": true,
+      "pickable": false
+    },
+    {
+      "id": "soup",
+      "$comment": "Takes the click of an empty hand over a finished soup while a bowl from the inventory is offered; off otherwise.",
+      "collider": {
+        "from": [
+          4,
+          2,
+          4
+        ],
+        "to": [
+          12,
+          9,
+          12
+        ]
+      }
+    },
+    {
+      "id": "melt_0",
+      "pos": [
+        8,
+        8,
+        8
+      ],
+      "rotation": [
+        -90,
+        180,
+        0
+      ],
+      "scale": 0.2,
+      "hidden": true,
+      "pickable": false
+    },
+    {
+      "id": "melt_1",
+      "pos": [
+        8,
+        8,
+        8
+      ],
+      "rotation": [
+        -90,
+        180,
+        0
+      ],
+      "scale": 0.2,
+      "hidden": true,
+      "pickable": false
+    },
+    {
+      "id": "melt_2",
+      "pos": [
+        8,
+        8,
+        8
+      ],
+      "rotation": [
+        -90,
+        180,
+        0
+      ],
+      "scale": 0.2,
+      "hidden": true,
+      "pickable": false
+    },
+    {
+      "id": "melt_3",
+      "pos": [
+        8,
+        8,
+        8
+      ],
+      "rotation": [
+        -90,
+        180,
+        0
+      ],
+      "scale": 0.2,
+      "hidden": true,
+      "pickable": false
+    },
+    {
+      "id": "melt_4",
+      "pos": [
+        8,
+        8,
+        8
+      ],
+      "rotation": [
+        -90,
+        180,
+        0
+      ],
+      "scale": 0.2,
+      "hidden": true,
+      "pickable": false
+    },
+    {
+      "id": "melt_5",
+      "pos": [
+        8,
+        8,
+        8
+      ],
+      "rotation": [
+        -90,
+        180,
+        0
+      ],
+      "scale": 0.2,
+      "hidden": true,
+      "pickable": false
+    },
+    {
+      "id": "badge",
+      "pos": [
+        -0.6,
+        14.5,
+        4.6
+      ],
+      "rotation": [
+        -50,
+        0,
+        0
+      ],
+      "pickable": false
+    },
+    {
+      "id": "dial_track",
+      "pos": [
+        -0.6,
+        14.52,
+        4.58
+      ],
+      "rotation": [
+        -50,
+        0,
+        0
+      ],
+      "pickable": false
+    },
+    {
+      "id": "dial",
+      "pos": [
+        -0.6,
+        14.54,
+        4.56
+      ],
+      "rotation": [
+        -50,
+        0,
+        0
+      ],
+      "pickable": false
+    },
+    {
+      "id": "preview",
+      "pos": [
+        -0.6,
+        14.58,
+        4.52
+      ],
+      "rotation": [
+        40,
+        0,
+        0
+      ],
+      "scale": 0.125,
+      "hidden": true,
+      "collider": {
+        "from": [
+          -12,
+          -12,
+          -12
+        ],
+        "to": [
+          12,
+          12,
+          12
+        ]
+      }
+    },
+    {
+      "id": "book_open",
+      "pos": [
+        16.33,
+        21.22,
+        -4
+      ],
+      "rotation": [
+        -50,
+        0,
+        0
+      ],
+      "scale": 0.69,
+      "hidden": true,
+      "collider": {
+        "from": [
+          -4.4,
+          -0.4,
+          -3.9
+        ],
+        "to": [
+          4.4,
+          1.4,
+          3.9
+        ]
+      }
+    }
+  ]
+}

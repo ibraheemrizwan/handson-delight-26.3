@@ -1,0 +1,175 @@
+{
+  "render_type": "minecraft:cutout",
+  "textures": {
+    "particle": "farmersdelight:block/heating_tray_top",
+    "heating_tray_top": "farmersdelight:block/heating_tray_top",
+    "heating_tray_side": "farmersdelight:block/heating_tray_side"
+  },
+  "elements": [
+    {
+      "name": "tray_grate",
+      "from": [
+        0,
+        -0.001,
+        0
+      ],
+      "to": [
+        16,
+        -0.001,
+        16
+      ],
+      "faces": {
+        "up": {
+          "uv": [
+            0,
+            0,
+            16,
+            16
+          ],
+          "texture": "#heating_tray_top"
+        },
+        "down": {
+          "uv": [
+            0,
+            0,
+            16,
+            16
+          ],
+          "texture": "#heating_tray_top"
+        }
+      }
+    },
+    {
+      "name": "tray_north",
+      "from": [
+        0,
+        -16,
+        0
+      ],
+      "to": [
+        16,
+        0,
+        0
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            0,
+            0,
+            16,
+            16
+          ],
+          "texture": "#heating_tray_side"
+        },
+        "south": {
+          "uv": [
+            0,
+            0,
+            16,
+            16
+          ],
+          "texture": "#heating_tray_side"
+        }
+      }
+    },
+    {
+      "name": "tray_south",
+      "from": [
+        0,
+        -16,
+        16
+      ],
+      "to": [
+        16,
+        0,
+        16
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            0,
+            0,
+            16,
+            16
+          ],
+          "texture": "#heating_tray_side"
+        },
+        "south": {
+          "uv": [
+            0,
+            0,
+            16,
+            16
+          ],
+          "texture": "#heating_tray_side"
+        }
+      }
+    },
+    {
+      "name": "tray_east",
+      "from": [
+        16,
+        -16,
+        0
+      ],
+      "to": [
+        16,
+        0,
+        16
+      ],
+      "faces": {
+        "east": {
+          "uv": [
+            0,
+            0,
+            16,
+            16
+          ],
+          "texture": "#heating_tray_side"
+        },
+        "west": {
+          "uv": [
+            0,
+            0,
+            16,
+            16
+          ],
+          "texture": "#heating_tray_side"
+        }
+      }
+    },
+    {
+      "name": "tray_west",
+      "from": [
+        0,
+        -16,
+        0
+      ],
+      "to": [
+        0,
+        0,
+        16
+      ],
+      "faces": {
+        "east": {
+          "uv": [
+            0,
+            0,
+            16,
+            16
+          ],
+          "texture": "#heating_tray_side"
+        },
+        "west": {
+          "uv": [
+            0,
+            0,
+            16,
+            16
+          ],
+          "texture": "#heating_tray_side"
+        }
+      }
+    }
+  ]
+}

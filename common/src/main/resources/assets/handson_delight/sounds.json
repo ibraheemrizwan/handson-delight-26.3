@@ -1,0 +1,46 @@
+{
+  "pot.body": {
+    "sounds": [
+      {
+        "name": "handson_delight:pot/body",
+        "stream": false
+      }
+    ]
+  },
+  "pot.stir": {
+    "sounds": [
+      {
+        "name": "handson_delight:pot/stir",
+        "stream": false
+      }
+    ]
+  },
+  "pot.plop": {
+    "sounds": [
+      "handson_delight:pot/plop1",
+      "handson_delight:pot/plop2",
+      "handson_delight:pot/plop3"
+    ]
+  },
+  "pot.burst": {
+    "sounds": [
+      "handson_delight:pot/burst1",
+      "handson_delight:pot/burst2",
+      "handson_delight:pot/burst3"
+    ]
+  },
+  "pot.blub": {
+    "sounds": [
+      "handson_delight:pot/blub1",
+      "handson_delight:pot/blub2",
+      "handson_delight:pot/blub3",
+      "handson_delight:pot/blub4"
+    ]
+  },
+  "pot.scoop": {
+    "sounds": [
+      "handson_delight:pot/scoop1",
+      "handson_delight:pot/scoop2"
+    ]
+  }
+}

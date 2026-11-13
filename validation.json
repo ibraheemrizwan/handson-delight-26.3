@@ -1,0 +1,11 @@
+{
+  "minecraft": "26.3",
+  "loader": "0.19.5",
+  "fabric_api": "0.161.0+26.3",
+  "java": 25,
+  "server_tests": 60,
+  "suite_server_tests": 136,
+  "release": "1.1.0+26.3.port.1",
+  "artifact": "handson_delight-fabric-26.3-1.1.0+26.3.port.1.jar",
+  "sha256": "8e891f38420fc81fb3f3f1ec7eb188e5acf6a64814c696bef35572e67cdf49fd"
+}

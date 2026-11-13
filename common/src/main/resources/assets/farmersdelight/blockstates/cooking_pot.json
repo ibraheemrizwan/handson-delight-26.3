@@ -1,0 +1,117 @@
+{
+  "multipart": [
+    {
+      "when": {
+        "facing": "north"
+      },
+      "apply": {
+        "model": "handson_delight:diegesis/pot/body"
+      }
+    },
+    {
+      "when": {
+        "facing": "east"
+      },
+      "apply": {
+        "model": "handson_delight:diegesis/pot/body",
+        "y": 90
+      }
+    },
+    {
+      "when": {
+        "facing": "south"
+      },
+      "apply": {
+        "model": "handson_delight:diegesis/pot/body",
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "facing": "west"
+      },
+      "apply": {
+        "model": "handson_delight:diegesis/pot/body",
+        "y": 270
+      }
+    },
+    {
+      "when": {
+        "facing": "north",
+        "support": "tray"
+      },
+      "apply": {
+        "model": "handson_delight:diegesis/pot/tray"
+      }
+    },
+    {
+      "when": {
+        "facing": "east",
+        "support": "tray"
+      },
+      "apply": {
+        "model": "handson_delight:diegesis/pot/tray",
+        "y": 90
+      }
+    },
+    {
+      "when": {
+        "facing": "south",
+        "support": "tray"
+      },
+      "apply": {
+        "model": "handson_delight:diegesis/pot/tray",
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "facing": "west",
+        "support": "tray"
+      },
+      "apply": {
+        "model": "handson_delight:diegesis/pot/tray",
+        "y": 270
+      }
+    },
+    {
+      "when": {
+        "facing": "north",
+        "support": "handle"
+      },
+      "apply": {
+        "model": "handson_delight:diegesis/pot/hoop"
+      }
+    },
+    {
+      "when": {
+        "facing": "east",
+        "support": "handle"
+      },
+      "apply": {
+        "model": "handson_delight:diegesis/pot/hoop",
+        "y": 90
+      }
+    },
+    {
+      "when": {
+        "facing": "south",
+        "support": "handle"
+      },
+      "apply": {
+        "model": "handson_delight:diegesis/pot/hoop",
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "facing": "west",
+        "support": "handle"
+      },
+      "apply": {
+        "model": "handson_delight:diegesis/pot/hoop",
+        "y": 270
+      }
+    }
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "replace": false,
+  "values": [
+    {
+      "id": "farmersdelight:rice",
+      "required": false
+    },
+    {
+      "id": "farmersdelight:cooked_rice",
+      "required": false
+    },
+    {
+      "id": "#forge:crops/rice",
+      "required": false
+    },
+    {
+      "id": "#c:crops/rice",
+      "required": false
+    },
+    {
+      "id": "#forge:grain",
+      "required": false
+    },
+    {
+      "id": "#c:grains",
+      "required": false
+    },
+    {
+      "id": "#c:crops/grain",
+      "required": false
+    }
+  ]
+}

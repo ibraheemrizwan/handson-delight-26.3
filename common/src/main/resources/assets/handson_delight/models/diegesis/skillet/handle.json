@@ -1,0 +1,72 @@
+{
+  "ambientocclusion": false,
+  "textures": {
+    "side": "farmersdelight:block/skillet_side",
+    "particle": "farmersdelight:block/skillet_top"
+  },
+  "elements": [
+    {
+      "name": "handle",
+      "from": [
+        7,
+        1,
+        15
+      ],
+      "to": [
+        9,
+        3,
+        27
+      ],
+      "faces": {
+        "east": {
+          "uv": [
+            9,
+            4,
+            11,
+            16
+          ],
+          "rotation": 90,
+          "texture": "#side"
+        },
+        "south": {
+          "uv": [
+            3,
+            14,
+            5,
+            16
+          ],
+          "texture": "#side"
+        },
+        "west": {
+          "uv": [
+            5,
+            4,
+            7,
+            16
+          ],
+          "rotation": 270,
+          "texture": "#side"
+        },
+        "up": {
+          "uv": [
+            7,
+            4,
+            9,
+            16
+          ],
+          "texture": "#side"
+        },
+        "down": {
+          "uv": [
+            11,
+            4,
+            13,
+            16
+          ],
+          "rotation": 180,
+          "texture": "#side"
+        }
+      }
+    }
+  ]
+}

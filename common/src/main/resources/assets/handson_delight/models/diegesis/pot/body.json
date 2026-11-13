@@ -1,0 +1,408 @@
+{
+  "textures": {
+    "particle": "farmersdelight:block/cooking_pot_side",
+    "cooking_pot_side": "farmersdelight:block/cooking_pot_side",
+    "cooking_pot_top": "farmersdelight:block/cooking_pot_top",
+    "cooking_pot_bottom": "farmersdelight:block/cooking_pot_bottom",
+    "cooking_pot_parts": "farmersdelight:block/cooking_pot_parts"
+  },
+  "elements": [
+    {
+      "name": "wall_north",
+      "from": [
+        2,
+        0,
+        2
+      ],
+      "to": [
+        14,
+        10,
+        4
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            2,
+            6,
+            14,
+            16
+          ],
+          "texture": "#cooking_pot_side"
+        },
+        "east": {
+          "uv": [
+            12,
+            6,
+            14,
+            16
+          ],
+          "texture": "#cooking_pot_side"
+        },
+        "south": {
+          "uv": [
+            2,
+            2,
+            14,
+            12
+          ],
+          "texture": "#cooking_pot_bottom"
+        },
+        "west": {
+          "uv": [
+            2,
+            6,
+            4,
+            16
+          ],
+          "texture": "#cooking_pot_side"
+        },
+        "up": {
+          "uv": [
+            2,
+            2,
+            14,
+            4
+          ],
+          "texture": "#cooking_pot_top"
+        },
+        "down": {
+          "uv": [
+            2,
+            2,
+            14,
+            4
+          ],
+          "texture": "#cooking_pot_bottom"
+        }
+      }
+    },
+    {
+      "name": "wall_south",
+      "from": [
+        2,
+        0,
+        12
+      ],
+      "to": [
+        14,
+        10,
+        14
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            2,
+            2,
+            14,
+            12
+          ],
+          "texture": "#cooking_pot_bottom"
+        },
+        "east": {
+          "uv": [
+            2,
+            6,
+            4,
+            16
+          ],
+          "texture": "#cooking_pot_side"
+        },
+        "south": {
+          "uv": [
+            2,
+            6,
+            14,
+            16
+          ],
+          "texture": "#cooking_pot_side"
+        },
+        "west": {
+          "uv": [
+            12,
+            6,
+            14,
+            16
+          ],
+          "texture": "#cooking_pot_side"
+        },
+        "up": {
+          "uv": [
+            2,
+            12,
+            14,
+            14
+          ],
+          "texture": "#cooking_pot_top"
+        },
+        "down": {
+          "uv": [
+            2,
+            12,
+            14,
+            14
+          ],
+          "texture": "#cooking_pot_bottom"
+        }
+      }
+    },
+    {
+      "name": "wall_west",
+      "from": [
+        2,
+        0,
+        4
+      ],
+      "to": [
+        4,
+        10,
+        12
+      ],
+      "faces": {
+        "east": {
+          "uv": [
+            4,
+            2,
+            12,
+            12
+          ],
+          "texture": "#cooking_pot_bottom"
+        },
+        "west": {
+          "uv": [
+            4,
+            6,
+            12,
+            16
+          ],
+          "texture": "#cooking_pot_side"
+        },
+        "up": {
+          "uv": [
+            2,
+            4,
+            4,
+            12
+          ],
+          "texture": "#cooking_pot_top"
+        },
+        "down": {
+          "uv": [
+            2,
+            4,
+            4,
+            12
+          ],
+          "texture": "#cooking_pot_bottom"
+        }
+      }
+    },
+    {
+      "name": "wall_east",
+      "from": [
+        12,
+        0,
+        4
+      ],
+      "to": [
+        14,
+        10,
+        12
+      ],
+      "faces": {
+        "east": {
+          "uv": [
+            4,
+            6,
+            12,
+            16
+          ],
+          "texture": "#cooking_pot_side"
+        },
+        "west": {
+          "uv": [
+            4,
+            2,
+            12,
+            12
+          ],
+          "texture": "#cooking_pot_bottom"
+        },
+        "up": {
+          "uv": [
+            12,
+            4,
+            14,
+            12
+          ],
+          "texture": "#cooking_pot_top"
+        },
+        "down": {
+          "uv": [
+            12,
+            4,
+            14,
+            12
+          ],
+          "texture": "#cooking_pot_bottom"
+        }
+      }
+    },
+    {
+      "name": "floor",
+      "from": [
+        4,
+        0,
+        4
+      ],
+      "to": [
+        12,
+        2,
+        12
+      ],
+      "faces": {
+        "up": {
+          "uv": [
+            4,
+            4,
+            12,
+            12
+          ],
+          "texture": "#cooking_pot_bottom"
+        },
+        "down": {
+          "uv": [
+            4,
+            4,
+            12,
+            12
+          ],
+          "texture": "#cooking_pot_bottom"
+        }
+      }
+    },
+    {
+      "name": "east_handle",
+      "from": [
+        14,
+        7,
+        5
+      ],
+      "to": [
+        16,
+        9,
+        11
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            10,
+            0,
+            12,
+            2
+          ],
+          "texture": "#cooking_pot_parts"
+        },
+        "east": {
+          "uv": [
+            4,
+            2,
+            10,
+            4
+          ],
+          "texture": "#cooking_pot_parts"
+        },
+        "south": {
+          "uv": [
+            2,
+            0,
+            4,
+            2
+          ],
+          "texture": "#cooking_pot_parts"
+        },
+        "up": {
+          "uv": [
+            4,
+            0,
+            10,
+            2
+          ],
+          "rotation": 90,
+          "texture": "#cooking_pot_parts"
+        },
+        "down": {
+          "uv": [
+            4,
+            2,
+            10,
+            4
+          ],
+          "rotation": 90,
+          "texture": "#cooking_pot_parts"
+        }
+      }
+    },
+    {
+      "name": "west_handle",
+      "from": [
+        0,
+        7,
+        5
+      ],
+      "to": [
+        2,
+        9,
+        11
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            2,
+            0,
+            4,
+            2
+          ],
+          "texture": "#cooking_pot_parts"
+        },
+        "south": {
+          "uv": [
+            10,
+            0,
+            12,
+            2
+          ],
+          "texture": "#cooking_pot_parts"
+        },
+        "west": {
+          "uv": [
+            4,
+            2,
+            10,
+            4
+          ],
+          "texture": "#cooking_pot_parts"
+        },
+        "up": {
+          "uv": [
+            4,
+            0,
+            10,
+            2
+          ],
+          "rotation": 270,
+          "texture": "#cooking_pot_parts"
+        },
+        "down": {
+          "uv": [
+            4,
+            2,
+            10,
+            4
+          ],
+          "rotation": 270,
+          "texture": "#cooking_pot_parts"
+        }
+      }
+    }
+  ]
+}

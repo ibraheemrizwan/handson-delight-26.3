@@ -1,0 +1,8 @@
+{
+  "handson_delight.pot.ready": "%s x %s",
+  "handson_delight.pot.cooking": "%s in %s s",
+  "handson_delight.book.seconds": "%s s",
+  "handson_delight.book.bonus": "+%s%%",
+  "handson_delight.assembly": "Cutting Board Assembly",
+  "handson_delight.assembly.first": "Goes on the board first"
+}

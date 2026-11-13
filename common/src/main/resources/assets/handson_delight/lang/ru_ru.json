@@ -1,0 +1,8 @@
+{
+  "handson_delight.pot.ready": "%s x %s",
+  "handson_delight.pot.cooking": "%s через %s с",
+  "handson_delight.book.seconds": "%s с",
+  "handson_delight.book.bonus": "+%s%%",
+  "handson_delight.assembly": "Сборка на разделочной доске",
+  "handson_delight.assembly.first": "Кладётся на доску первым"
+}

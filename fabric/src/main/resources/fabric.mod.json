@@ -1,0 +1,51 @@
+{
+  "schemaVersion": 1,
+  "id": "handson_delight",
+  "version": "1.1.0+26.3.port.1",
+  "name": "Hands-On Delight",
+  "description": "Cook in Farmer's Delight with your hands: its menus become interactive in-world stations.",
+  "authors": [
+    "Pocky"
+  ],
+  "contact": {
+    "homepage": "https://github.com/Pocky-l/handson-delight",
+    "sources": "https://github.com/Pocky-l/handson-delight",
+    "issues": "https://github.com/Pocky-l/handson-delight/issues"
+  },
+  "license": "MIT",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "com.pockyl.handson_delight.fabric.HandsOnDelightFabric"
+    ],
+    "client": [
+      "com.pockyl.handson_delight.fabric.HandsOnDelightFabricClient"
+    ],
+    "jei_mod_plugin": [
+      "com.pockyl.handson_delight.compat.jei.HandsOnJeiPlugin"
+    ],
+    "rei_client": [
+      "com.pockyl.handson_delight.fabric.rei.HandsOnReiPlugin"
+    ],
+    "fabric-gametest": [
+      "com.pockyl.handson_delight.fabric.FabricPotTests",
+      "com.pockyl.handson_delight.fabric.FabricBoardTests",
+      "com.pockyl.handson_delight.fabric.FabricSkilletTests",
+      "com.pockyl.handson_delight.fabric.FabricStoveTests"
+    ],
+    "fabric-client-gametest": [
+      "com.pockyl.handson_delight.client.ClientPortTest"
+    ]
+  },
+  "mixins": [
+    "handson_delight.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.19.5",
+    "fabric-api": ">=0.161.0+26.3",
+    "minecraft": "26.3",
+    "java": ">=25",
+    "farmersdelight": ">=26.3-3.6.30",
+    "diegesis": ">=1.0.0-beta.4+26.3.port.1"
+  }
+}
